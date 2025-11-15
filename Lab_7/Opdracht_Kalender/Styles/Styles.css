@@ -1,0 +1,25 @@
+table,th,tr,td{
+border: 1px solid black;
+    padding: 0px;
+}
+th{
+   background-color: rgb(170,170,200);
+}
+.dag
+{
+    background-color: rgb(35,37,70);
+    color:  rgb(200,190,240);
+}
+.feestdag
+{
+    background-color: rgb(250,120,120);
+}
+.week > :first-child {
+    background-color: rgb(255, 220, 220);
+}
+.week > :last-child {
+    background-color: rgb(255, 220, 220);
+}
+.andermaand {
+    background-color: lightgray !important;
+}

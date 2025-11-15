@@ -1,0 +1,36 @@
+html
+{
+    margin: auto;
+    width: 95%;
+}
+h1
+{
+    background-image: url("../Images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 40px;
+    margin: 0;
+}
+nav > a
+{
+    padding: 2px;
+    color: chartreuse;
+}
+nav
+{
+    background-color: black;
+}
+article
+{
+    background-color: lightgray;
+    padding: 1px;
+    margin: 5px;
+}
+header > h2
+{
+    text-decoration: underline;
+ }
+body {
+    font-family: Arial, sans-serif;
+}
