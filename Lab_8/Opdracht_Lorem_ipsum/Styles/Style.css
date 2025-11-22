@@ -1,0 +1,13 @@
+section{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    float : left;
+    height: 380px;
+}
+div
+{
+    padding: 10px;
+}
