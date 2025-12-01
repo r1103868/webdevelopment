@@ -1,0 +1,19 @@
+article {
+    border: 1px solid #000;
+    margin: 0 10px 10px 10px;
+    height: 260px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+article:nth-child(odd) img
+{
+    float: left;
+    margin-right: 10px;
+}
+article:nth-child(even) img
+{
+    float: right;
+    margin-left: 10px;
+}
