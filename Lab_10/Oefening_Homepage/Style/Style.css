@@ -1,0 +1,51 @@
+html{
+    margin: auto;
+    width: 90%;
+}
+
+body > h1 {
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, Geneva, Tahoma, sans-serif;
+}
+
+article {
+    background-color: lightgray;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+img {
+    width: 100px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.vrienden {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 3px solid #36752D;
+}
+
+.vrienden table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.vrienden td, .vrienden th { padding: 4px 10px; }
+.vrienden thead th  {background-color:#36752D; color:#FFFFFF; font-size: 13px; font-weight: bold; border-left: 2px solid #36752D; }
+.vrienden thead th:first-child { border: none; }
+.vrienden tbody td { color: #6B6B18; border-left: 3px solid #F4F1E5;font-size: 13px;border-bottom: 5px solid #E1EEF4;font-weight: normal; }
+.vrienden tbody .alt td { background: #929FF4; color: #275420; }
+
+.vrienden tbody td.testt {
+    background: lightcoral;
+    color: #275420;
+}
+
+table, th, td { border: 1px solid black; }
