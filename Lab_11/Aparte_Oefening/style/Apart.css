@@ -78,7 +78,7 @@ section div {
     grid-row-start: 1;
     grid-row-end: 1;
 }
-@media screen { min-width: 760px}
+@media (min-width: 760px)
 {
     section{
         grid-template-columns:auto auto auto;
