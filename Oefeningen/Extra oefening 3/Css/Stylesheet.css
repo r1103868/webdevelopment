@@ -1,0 +1,210 @@
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+html
+{
+    font-family: helvetica,sans-serif;
+    margin: 0 0 0 0;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+header div
+{
+    height: 50px;
+    border-bottom: 1px solid #ebe8e8;
+    text-align: center;
+}
+header div img
+{
+    height: 50px;
+}
+dd
+{
+    display:grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows:1fr;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0
+}
+dd:last-child
+{
+    border-right:none;
+}
+dl{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-right: 1px solid #ebe8e8;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 13px;
+}
+dl:hover
+{
+    border-bottom: 2px solid #fff100;
+}
+.banner
+{
+    height: 500px;
+}
+.banner img{
+    height: 500px;
+    width: 100%;
+}
+.banner p{
+    color: white;
+    font-size: 40px;
+    text-shadow: #8D99AE 2px 2px;
+    position: relative;
+    top: -320px;
+    left: 550px;
+}
+#recip{
+    margin-top: 50px;
+    padding:0;
+}
+.recipe{
+     grid-template-columns:repeat(4, 1fr);
+     grid-template-rows:repeat(3, 1fr);
+     display: grid;
+    text-align: center;
+}
+#Bbq, #Burger, #Medet{
+    margin-right: 1.5em;
+    padding: 1em;
+    border-top: #ddd solid 1px;
+}
+.Small_title{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #ff4d56;
+}
+.title a
+{
+    color: black;
+    text-decoration: none;
+}
+.body
+{
+    color: #666;
+    line-height: 2;
+}
+.auteur
+{
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+    font-style: italic;
+}
+.timestamp
+{
+    color: #666;
+    padding-left: 10px;
+}
+#Bbq{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#Bbq_img
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#Burger
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#Burger_id
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#Medet
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#Medet_img
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#Recom
+{
+    margin-top: 50px;
+}
+#Recommended
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(1, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#Recommended div
+{
+    margin: 25px;
+}
+footer div
+{
+    display:flex;
+    justify-content: center;
+    border-top:#ddd solid 1px;
+}
+#left
+ {
+    float: left;
+
+ }
+ #right
+ {
+     background-color: black;
+     color: white;
+     float: right;
+     align-items: stretch;
+
+ }
+@media screen {min-width: 770px;
+    header{
+        width: 750px;
+    }
+}
+@media screen {min-width: 800px;
+    .banner p{
+        font-size: 5em;
+    }
+}
+@media screen {min-width: 1000px;
+    header{
+        width: 980px;
+    }
+}
