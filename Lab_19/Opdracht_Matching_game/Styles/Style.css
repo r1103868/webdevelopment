@@ -1,0 +1,27 @@
+#playField
+{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 per rij = 3 rijen */
+        gap: 10px;
+        max-width: 800px;
+        margin: auto;
+}
+#playField img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.kaart {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.achterkant {
+    background-color: aliceblue;
+    border: 1px solid gray;
+    cursor: pointer;
+}
