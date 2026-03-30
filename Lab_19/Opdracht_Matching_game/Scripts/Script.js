@@ -55,7 +55,7 @@ const start = () => {
     // Voeg alle kaarten toe aan de array (2 van elk)
     for (let i = 1; i < 7; i++) {
         for (let j = 0; j < 2; j++) {
-            kaartenArray.push("images/Afbeelding" + i + ".png");
+            kaartenArray.push("Images/Afbeelding" + i + ".png");
         }
     }
 
