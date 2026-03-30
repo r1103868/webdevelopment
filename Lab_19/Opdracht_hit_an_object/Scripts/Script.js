@@ -24,7 +24,7 @@
         let target = document.getElementById("target");
         let scores = document.getElementsByClassName("score");
         let welke =  Math.round(Math.random() * 4)
-        target.src = "images/" + welke + ".png";
+        target.src = "./images/" + welke + ".png";
 
     }
     const update = () => {
