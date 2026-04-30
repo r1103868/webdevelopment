@@ -1,0 +1,39 @@
+body{
+    margin: auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#opslaanveld{
+    width:100%;
+}
+.geschiedenis{
+    width:250px;
+    height:120px;
+    border:1px solid black;
+    border-radius:8px;
+}
+.google{
+    background-color:dodgerblue;
+}
+.youtube{
+    background-color:red;
+}
+.youtubebutton{
+    background-color:black;
+}
+.instagram{
+    background-color:purple;
+}
+.btn{
+    width:100%;
+    height:25px;
+    background-color:forestgreen;
+    color:white;
+}
+.vemd{
+    display:flex;
+    margin-top:20px;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:20px;
+}
